@@ -1,7 +1,7 @@
 {
   "name": "sltf",
   "version": "0.1.0",
-  "homepage": "https://sltf.github.io/web/",
+  "homepage": "http://lktrains.com",
   "private": true,
   "dependencies": {
     "@date-io/core": "^1.3.13",
