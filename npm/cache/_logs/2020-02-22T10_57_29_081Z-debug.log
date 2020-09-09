@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'build' ]
+2 info using npm@6.13.6
+3 info using node@v10.16.3
+4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+5 info lifecycle sltf@0.1.0~prebuild: sltf@0.1.0
+6 info lifecycle sltf@0.1.0~build: sltf@0.1.0
+7 verbose lifecycle sltf@0.1.0~build: unsafe-perm in lifecycle true
+8 verbose lifecycle sltf@0.1.0~build: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/pulasthim/pp/sltf/sltf-editor/react/node_modules/.bin:/Users/pulasthim/pp/k8/google-cloud-sdk/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/go/bin:/usr/local/MacGPG2/bin:/usr/local/wum/bin:/opt/X11/bin:/Library/Ballerina/ballerina-1.0.1/bin:/Users/pulasthim/dev/tools/wum-uc/bin
+9 verbose lifecycle sltf@0.1.0~build: CWD: /Users/pulasthim/pp/sltf/sltf-editor/react
+10 silly lifecycle sltf@0.1.0~build: Args: [ '-c', 'react-scripts build' ]
+11 silly lifecycle sltf@0.1.0~build: Returned: code: 1  signal: null
+12 info lifecycle sltf@0.1.0~build: Failed to exec build script
+13 verbose stack Error: sltf@0.1.0 build: `react-scripts build`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:198:13)
+13 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:198:13)
+13 verbose stack     at maybeClose (internal/child_process.js:982:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+14 verbose pkgid sltf@0.1.0
+15 verbose cwd /Users/pulasthim/pp/sltf/sltf-editor/react
+16 verbose Darwin 19.3.0
+17 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "build"
+18 verbose node v10.16.3
+19 verbose npm  v6.13.6
+20 error code ELIFECYCLE
+21 error errno 1
+22 error sltf@0.1.0 build: `react-scripts build`
+22 error Exit status 1
+23 error Failed at the sltf@0.1.0 build script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]

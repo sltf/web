@@ -1,0 +1,183 @@
+.center {
+  text-align: center;
+}
+
+.pageHead {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.rightAlign {
+  text-align: end;
+}
+
+.centerVertical {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.centerScreen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 100px;
+  height: 100px;
+}
+.centerMessage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -15%;
+  margin-left: -15%;
+  width: 30%;
+  height: 30%;
+  text-align: center;
+}
+
+.actionButtons {
+  display: flex;
+  justify-content: center;
+}
+
+.actionButton {
+  margin: 10px;
+}
+
+.resultItem {
+  border-radius: 10px;
+  border: 1px solid grey;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 15px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.compRightAlign {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 20px solid;
+  border-bottom: 10px solid transparent;
+  margin-left: 10px;
+  position: relative;
+}
+
+/* Styles from new version */
+
+.result-header {
+  display: flex;
+  flex-direction: column;
+}
+.result-title {
+  margin: 0 auto;
+}
+.result-subtitle {
+  margin: 0 auto;
+}
+.result-item {
+  display: flex;
+  margin-bottom: 30px;
+}
+.result-item-header {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 100px;
+}
+.result-item-id {
+  flex: 1;
+}
+.result-item-total-time {
+  flex: 1;
+}
+.result-item-num-trains {
+  flex: 2;
+}
+.resultItemBody {
+  flex: 9;
+  display: flex;
+  flex-direction: column;
+}
+.resultHop {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.trainTravel {
+  min-width: 100px;
+  font-size: 0.9em;
+  margin: auto;
+}
+.stations {
+  min-width: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.station {
+  font-size: 1.4em;
+}
+.separator {
+  display: flex;
+  justify-content: space-around;
+}
+.nodeDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px black solid;
+}
+.dashedLine {
+  position: absolute;
+  border: none;
+  border-top: 2px dotted white;
+  height: 0px;
+  width: 20%;
+  margin-top: 4px;
+}
+.straightLine {
+  position: absolute;
+  border: none;
+  border-top: 2px solid black;
+  height: 0px;
+  width: 50%;
+  z-index: -1;
+  margin-top: 4px;
+}
+.times {
+  min-width: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.time {
+  font-size: 0.9em;
+}
+.switchAt {
+  display: flex;
+  justify-content: center;
+  font-size: 0.9em;
+}
+.switchAt p {
+  margin-bottom: 0;
+}
+.trainWagon {
+  border: 2px solid black;
+  padding: 2px;
+}
